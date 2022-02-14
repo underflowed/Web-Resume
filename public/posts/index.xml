@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on underflowed</title>
+    
+    
+    
+    <link>/posts/</link>
+    <description>Recent content in Posts on underflowed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Feb 2022 14:06:58 -0500</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Projects.</title>
+      <link>/posts/projects/</link>
+      <pubDate>Sun, 13 Feb 2022 14:06:58 -0500</pubDate>
+      
+      <guid>/posts/projects/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://i.stack.imgur.com/Hcc35.png&#34;/&gt;
+          
+        
+        
+        
+          Text adventure game written in Rust.#https://github.com/underflowed/text-adventure-game-in-rust
+This project was done in an attempt to learn Mozillas rust programming language, I also learned some interesting concepts involving storing objects in matrices
+let mut map: Vec&amp;lt;Vec&amp;lt;Option&amp;lt;Box&amp;lt;dyn Room&amp;gt;&amp;gt;&amp;gt;&amp;gt; = vec![ vec![ Some(Box::new(EntranceRoom {})), ], vec![ Some(Box::new(AxeRoom{})), Some(Box::new(BodyRoom {})), Some(Box::new(DarkRoom {})), ] ]; Storing room structs in the map as a way of maneuvering in 2D space was interesting concept to implement.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Who I am.</title>
+      <link>/posts/who-i-am/</link>
+      <pubDate>Sun, 13 Feb 2022 14:06:58 -0500</pubDate>
+      
+      <guid>/posts/who-i-am/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://images.8tracks.com/cover/i/012/252/771/tumblr_o9izkoiYDY1urpryuo1_1280-9584.jpg?rect=178%2C0%2C924%2C924&amp;q=98&amp;fm=jpg&amp;fit=max&amp;w=320&amp;h=320&#34;/&gt;
+          
+        
+        
+        
+          My name is Jose Oliver, I was born in Columbia to a single mother who was a Cuban immigrant.
+I&amp;rsquo;ve always had a keen interest in technology, since I was very young, I always wondered what made the applications I used everyday tick, all the random flashgames, video games like minecraft, facebook, etc.
+#Ever since I wrote my first line of python code on my free time in 2016 #I knew that making a career out of this would be all I wanted #Amazing that all it took was one line of code!
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
